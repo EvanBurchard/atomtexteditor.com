@@ -3,123 +3,151 @@
   <link rel='stylesheet' type='text/css' href='main.css'>
 </head>
 <body>
-<h1>Keyboard shortcuts for Atom text editor (windows)</h1>
-<h2>General</h2>
-<ul>
-  <li><code>Ctrl ,</code>   Preferences</li>
-  <li><code>Ctrl Shift p</code>   Toggle command palette</li>
-  <li><code>Ctrl b</code>   Browse list of open files</li>
-  <li><code>Ctrl Alt r</code>   Reload Atom</li>
-  <li><code>Ctrl Shift i</code>   Change syntax highlighting</li>
-  <li><code>Alt Shift s</code>   Show available code snippets</li>
-  <li><code>Ctrl Shift m</code>   Markdown preview</li>
-  <li><code>Ctrl Alt i</code>   Toggle Developer Tools</li>
-</ul>
+  <h1>Keyboard shortcuts for the Atom Text Editor <code class='mac'>mac</code>, <code>windows</code></h1>
 
+  <section>
 <h2> File Management </h2>
 <ul>
-  <li><code>Ctrl n</code>   New file</li>
-  <li><code>Ctrl p</code>   Open file (type the name to perform a search)</li>
-  <li><code>Ctrl o</code>   Open file</li>
-  <li><code>cw</code>   change (replace) to the end of the word</li>
-  <li><code>Ctrl Shift n</code>   New Window</li>
-  <li><code>Ctrl Shift o</code>   Open folder</li>
-  <li><code>Ctrl s</code>   Save</li>
-  <li><code>Ctrl Shift s</code>   Save as</li>
-  <li><code>Ctrl w</code>   Close tab</li>
-  <li><code>Ctrl Shift w</code>   Close window</li>
+  <li><code class='mac'>cmd n</code><code>ctrl n</code>   New file</li>
+  <li><code class='mac'>cmd shift n</code><code>ctrl shift n</code>   New Window</li>
+  <li><code class='mac'>cmd o</code><code>ctrl o</code>   Open file or folder via finder</li>
+  <li><code class='mac'>cmd shift o</code><code>ctrl shift o</code>   Open folder</li>
+  <li><code class='mac'>cmd p or cmd t</code><code>ctrl p</code>   Open file within project</li>
+  <li><code class='mac'>cmd b</code><code>ctrl b</code> Browse list of open files</li>
+  <li><code class='mac'>cmd s</code><code>ctrl s</code>   Save</li>
+  <li><code class='mac'>cmd shift s</code><code>ctrl shift s</code>   Save as</li>
+  <li><code class='mac'>cmd w</code><code>ctrl w</code>   Close tab</li>
+  <li><code class='mac'>cmd shift t</code><code>ctrl shift t</code>   Reopen closed item</li>
+  <li><code class='mac'>cmd shift w</code><code>ctrl shift w</code>   Close window</li>
 </ul>
+
+</section>
+<section>
+<h2>Navigation</h2>
+<ul>
+  <li><code class='mac'>cmd g</code><code>ctrl g</code>   Go to line</li>
+  <li><code class='mac'>arrow keys</code> basic movement</li>
+  <li><code class='mac'>cmd shift [ and ]</code>previous and next tabs</li>
+  <li><code class='mac'>cmd 1, 2, 3, etc.</code>go to tab number</li>
+  <li><code class='mac'>cmd k arrow</code>open pane in direction</li>
+  <li><code class='mac'>cmd k cmd arrow</code>move to pane in direction</li>
+  <li><code class='mac'>ctrl 0</code> focus tree view</li>
+  <li><code class='mac'>cmd \</code> toggle tree view</li>
+  <li><code class='mac'>cmd shift \</code> reveal active file in tree</li>
+</ul>
+</section>
+<section>
+
+<h2>Selection</h2>
+<ul>
+  <li><code class='mac'>cmd l</code><code>ctrl l</code>   Select line</li>
+  <li><code class='mac'>ctrl shift w</code>select word</li>
+  <li><code class='mac'>ctrl cmd m</code>highlight code inside current brackets</li>
+  <li><code class='mac'>various</code>arrows or npfb combined with shift and either alt (by word) or cmd (to begin/end)</li>
+</ul>
+</section>
+<section>
 
 <h2> Editing Lines </h2>
 <ul>
-  <li><code>Ctrl g</code>   Go to line</li>
-  <li><code>Ctrl l</code>   Select line</li>
-  <li><code>Ctrl Shift d</code>   Duplicate line</li>
-  <li><code>Ctrl Shift k</code>   Delete line</li>
-  <li><code>Ctrl Up Arrow / Down Arrow </code>  Move line up/down</li>
-  <li><code>Ctrl /</code>   Toggle comment line</li>
-  <li><code>Ctrl Enter</code>   New line below</li>
-  <li><code>Ctrl [ / ]</code>   Indent / outdent selected lines</li>
-  <li><code>Ctrl j</code>   Join lines</li>
+  <li><code class='mac'>cmd shift d</code><code>ctrl shift d</code>   Duplicate line</li>
+  <li><code class='mac'>ctrl shift k</code> <code>ctrl shift k</code>   Delete line</li>
+  <li><code class='mac'>cmd Up Arrow / Down Arrow </code><code>ctrl Up Arrow / Down Arrow </code>  Move line up/down</li>
+  <li><code class='mac'>cmd /</code><code>ctrl /</code>   Toggle comment line</li>
+  <li><code class='mac'>cmd Enter</code><code>ctrl enter</code>   New line below</li>
+  <li><code class='mac'>cmd [ and ]</code><code>cmd [ and ]</code>   Indent / outdent selected lines</li>
+  <li><code class='mac'>cmd j</code><code>ctrl j</code>   Join lines</li>
+  <li><code class='mac'>ctrl d or delete</code>delete</li>
+  <li><code class='mac'>ctrl h or backspace</code>backspace</li>
+  <li><code class='mac'>various</code>delete/backspace and alt (by word) or cmd (to begin/end) can be combined with arrows and npfb to delete in larger chunks</li>
 </ul>
+</section>
+<section>
 
-<h2> View </h2>
-<ul>
-  <li><code>Ctrl Shift = / -</code>   Increase / decrease text size</li>
-  <li><code>Ctrl 0</code>   Reset text size</li>
-  <li><code>F11</code>   Toggle full screen</li>
-</ul>
 
-<h2> Github Integration </h2>
+<h2>Search</h1>
 <ul>
-  <li><code>Alt g then b</code>   Open on Github: blame </li>
-  <li><code>Alt g then c</code>   Open on Github: copy-url</li>
-  <li><code>Alt g then g</code>   Open on Github: repository</li>
-  <li><code>Alt g then h</code>   Open on Github: history</li>
-  <li><code>Alt g then i</code>   Open on Github: issues</li>
-  <li><code>Alt g then o</code>   Open on Github: file</li>
-  <li><code>Alt g then r</code>   Open on Github: branch-compare </li>
+  <li><code class='mac'>cmd f</code>search within buffer</li>
+  <li><code class='mac'>cmd shift f</code>search within project</li>
+  <li><code class='mac'>cmd g</code>find next (inside search window)</li>
+  <li><code class='mac'>cmd d</code> search for next with multiple cursors</li>
+  <li><code class='mac'>cmd e</code> search under cursor</li>
+  <li><code class='mac'>cmd r</code>go to symbol in file</li>
+  <li><code class='mac'>cmd shift r</code>go to symbol in project</li>
+  <li><code class='mac'>ctrl cmd G</code>multiple cursors for all words same as under cursor</li>
 </ul>
+</section>
+<section>
 
-<h1>interesting commands on mac</h1>
+<h1>Folding</h1>
 <ul>
-  <li><code>cmd shift p</code> search for command</li>
-  <li><code>cmd l</code> select line</li>
-  <li><code>cmd shift o</code> open project</li>
-  <li><code>cmd t or cmd p</code> open file in project</li>
-  <li><code>cmd ,</code> open preferences</li>
-  <li><code>cmd d</code> search for next with multiple cursors</li>
-  <li><code>cmd e</code> search under cursor</li>
-  <li><code>ctrl g</code> go to line</li>
-  <li><code>cmd r</code>go to symbol in file</li>
-  <li><code>cmd shift r</code>go to symbol in project</li>
-  <li><code>ctrl shift w</code>select word</li>
-  <li><code>cmd shift d</code>duplicate line</li>
-  <li><code>ctrl shift k</code>delete line</li>
-  <li><code>cmd click</code>new cursor</li>
-  <li><code>ctrl cmd G</code>multiple cursors for all words same as under cursor</li>
-  <li><code>ctrl m</code>jump to paired bracket</li>
-  <li><code>ctrl shift m</code>preview document</li>
-  <li><code>ctrl cmd m</code>highlight code inside current brackets</li>
-  <li><code>alt cmd .</code>close tag</li>
-  <li><code>cmd f</code>search within buffer</li>
-  <li><code>cmd shift f</code>search within project</li>
-  <li><code>cmd g</code>find next</li>
-  <li><code>alt cmd p</code>scopes at cursor (like modes)</li>
-  <li><code>alt shift s</code>view available snippets</li>
-  <li><code>ctrl space</code>autocomplete</li>
-  <li><code>alt cmd [ and alt cmd ]</code>folding</li>
-  <li><code>alt cmd shift [ and alt cmd shift ]</code>folding everything</li>
-  <li><code>cmd k arrow</code>open pane in direction</li>
-  <li><code>cmd shift b</code>shows modified files</li>
-  <li><code>alt g down and alt g up</code>skips to next modification</li>
-  <li><code>alt g o</code>opens on github</li>
-  <li><code>alt g b</code>opens blame on github</li>
-  <li><code>alt g h</code>opens history on github</li>
-  <li><code>alt g c</code>copies file path on github</li>
-  <li><code>alt g r</code>branch compare github</li>
-  <li><code>alt g d</code>diff list</li>
-  <li><code>cntl shift l</code>grammar list</li>
-  <li><code>cmd shift :</code>spell check (won't work on normal grammars)</li>
-  <li><code>alt cmd i</code>chrome dev tools</li>
-  <li><code>shift cmd t</code>reopen closed item</li>
+  <li><code class='mac'>cmd alt [ and ]</code>folding</li>
+  <li><code class='mac'>cmd alt shift [ and ]</code>folding everything</li>
 </ul>
-<h1>what you might miss from readline/emacs or vim</h1>
+</section>
+<section>
+
+<h2> Git Integration </h2>
 <ul>
-  <li><code>ctrl j</code> enter</li>
-  <li><code>ctrl w</code>delete word</li>
-  <li><code>ctrl u</code>delete after cursor</li>
-  <li><code>ctrl y</code>paste (yank)</li>
-  <li><code>ctrl t</code>swapping chars is one character off, doesn't allow a correction without extra typing (left first)</li>
-  <li><code>alt t</code> swapping words</li>
-  <li><code>[] in vim or alt-e/alt-a in emacs</code> for moving by paragraph </li>
-  <li><code>ctrl [</code> escape</li>
-  <li><code>ctrl o/i</code> for last cursor position</li>
-  <li><code>:!</code> for arbritrary shell commands</li>
-  <li>registers or kill/yank rings</li>
-  <li>tags implemented with ctags manually</li>
+  <li><code class='mac'>alt g d</code>diff list</li>
+  <li><code class='mac'>alt g then b</code>   Open on Github: blame </li>
+  <li><code class='mac'>alt g then c</code>   Open on Github: copy-url</li>
+  <li><code class='mac'>alt g then g</code>   Open on Github: repository</li>
+  <li><code class='mac'>alt g then h</code>   Open on Github: history</li>
+  <li><code class='mac'>alt g then i</code>   Open on Github: issues</li>
+  <li><code class='mac'>alt g then o</code>   Open on Github: file</li>
+  <li><code class='mac'>alt g then r</code>   Open on Github: branch-compare </li>
+  <li><code class='mac'>cmd shift b</code>shows modified files</li>
+  <li><code class='mac'>alt g down and alt g up</code>skips to next modification</li>
+</ul>
+</section>
+<section>
+
+<h1>Other Interesting Commands</h1>
+<ul>
+  <li><code class='mac'>cmd click</code>new cursor</li>
+  <li><code class='mac'>ctrl m</code>jump to paired bracket</li>
+  <li><code class='mac'>ctrl shift m</code>preview document as markdown</li>
+  <li><code class='mac'>cmd alt .</code>close tag</li>
+  <li><code class='mac'>cmd alt p</code>scopes at cursor (like emacs modes)</li>
+  <li><code class='mac'>alt shift s</code>view available snippets</li>
+  <li><code class='mac'>ctrl space</code>autocomplete</li>
+  <li><code class='mac'>cntl shift l</code>grammar list</li>
+  <li><code class='mac'>cmd shift :</code>spell check (won't work on some programming language grammars)</li>
+  <li><code class='mac'>cmd alt i</code><code>ctrl alt i</code> Toggle Developer Tools</li>
+  <li><code class='mac'>cmd ,</code><code>ctrl ,</code> Preferences</li>
+  <li><code class='mac'>cmd shift p</code><code>ctrl shift p</code> Toggle command palette</li>
+  <li><code class='mac'>alt shift s</code><code>alt shift s</code>   Show available code snippets</li>
+  <li><code class='mac'>ctrl shift m</code><code>ctrl shift m</code>   Markdown preview</li>
+</ul>
+</section>
+<section>
+
+<h1>What You Might Miss From <a href="https://en.wikipedia.org/wiki/GNU_Readline">Readline</a>/Emacs and Vim</h1>
+<ul>
+  <li><code class='mac'>ctrl j</code> enter</li>
+  <li><code class='mac'>ctrl w</code>delete word</li>
+  <li><code class='mac'>ctrl u</code>delete after cursor</li>
+  <li><code class='mac'>ctrl y</code>paste (yank)</li>
+  <li><code class='mac'>ctrl t</code>swapping chars is one character off, doesn't allow a correction without extra typing (left first)</li>
+  <li><code class='mac'>alt t</code> swapping words</li>
+  <li><code class='mac'>{ and } in vim or alt-e/alt-a in emacs</code> for moving by paragraph </li>
+  <li><code class='mac'>ctrl [</code> escape</li>
+  <li><code class='mac'>ctrl o/i</code> for last cursor position</li>
+  <li><code class='mac'>:!</code> for arbritrary shell commands</li>
+  <li>registers and kill/yank rings</li>
+  <li>tags are still implemented/updated with ctags manually</li>
   <li>macros</li>
-  <li>number prefixes (for movement, etc)</li>
+  <li>number prefixes/infixes for commands (for movement, etc)</li>
+  <li>an easy way to repeat the last command</li>
+  <li>highlighting up till search</li>
 </ul>
+</section>
+<section class='last'>
+  Made with love by <a href="http://evanburchard.com">Evan Burchard <img src="evan.png"></a>
+  <br>
+  <br>
+  <a href="https://github.com/evanburchard/atomtexteditor.com">Forks and Pull Requests Welcome</a>
+</section>
 </body>
 </html>

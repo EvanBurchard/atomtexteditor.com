@@ -5,3 +5,32 @@ code{
   padding:1px 8px 1px 8px;
   border-radius:5px;
 }
+code.mac{
+  background-color:#ee93ee;
+  color:black;
+  margin:10px;
+  padding:1px 8px 1px 8px;
+  border-radius:5px;
+}
+section{
+  margin:10px;
+  border: 8px dotted #eeeeee;
+  padding:15px;
+}
+html{
+  background-color:#222222;
+  color:white;
+}
+body{
+  margin:30px;
+}
+a,a:visited,a:hover,a:active{
+  color:#ee93ee;
+}
+.last{
+  background-color:#33eeee;
+  border-radius: 50px;
+}
+.last a, last a:visited, last a:hover, last a:active{
+  color:#222222;
+}
